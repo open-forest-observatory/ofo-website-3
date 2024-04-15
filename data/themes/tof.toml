@@ -12,7 +12,8 @@ name = "tof"
   menu_title = "#fff"
 
   # Backgrounds
-  background = "rgb(239, 239, 239)"
+  background = "rgb(225, 225, 225)"
   home_section_odd = "rgb(225, 225, 225)"
-  home_section_even = "rgb(235, 235, 235)"
+  home_section_even = "rgb(225, 225, 225)"
+  # home_section_even = "rgb(235, 235, 235)"
 
