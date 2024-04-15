@@ -24,3 +24,4 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy = "`frame-ancestors *`;"
+#TODO: set this just for the static pages that need to be embedded

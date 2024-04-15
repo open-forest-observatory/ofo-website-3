@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Open Forest Observatory # Website name
-baseURL: 'https://open-forest-observatory.org/' # Website URL
+baseURL: 'https://openforestobservatory.netlify.app/' # Website URL
 
 ############################
 ## LANGUAGE
