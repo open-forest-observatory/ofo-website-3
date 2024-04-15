@@ -1,24 +1,17 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
+  - name: Data
+    url: /data
     weight: 10
-  - name: News
-    url: post
+  - name: Tools
+    url: /tools
     weight: 20
-  - name: People
-    url: people
+  - name: Docs
+    url: "https://docs.openforestobservatory.org"
     weight: 30
-  - name: Events
-    url: event
+  - name: About
     weight: 40
-  - name: Publications
-    url: publication
-    weight: 50
-  - name: Contact
-    url: contact
-    weight: 60
+    url: /about
