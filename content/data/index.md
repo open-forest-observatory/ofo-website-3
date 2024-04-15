@@ -32,11 +32,11 @@ sections:
 
         [View fullscreen map](/field-plot-map/field-plot-map.html)
 
-        <object type="text/html" data="{{< static "data/field-plot-map.html" >}}" style="display:block; width:100%; height:76vh;" class="tester"></object>
+        <object type="text/html" data="{{< static "/field-plot-map/field-plot-map.html" >}}" style="display:block; width:100%; height:76vh;" class="tester"></object>
 
         end of page
 
-        {{< include-html  "data/field-plot-map.html" >}}
+        {{< include-html  "/field-plot-map/field-plot-map.html" >}}
 
         new end
 
