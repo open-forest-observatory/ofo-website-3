@@ -33,7 +33,7 @@ sections:
         </div>
         <br>
         <br>
-        <img src="/logo/log0.svg" class="tester">
+        <img src="log0.png#tester" width="200" class="tester">
         <b class="tester" style="font-size: 120%">Open Forest Observatory</b>
         
         <br>
