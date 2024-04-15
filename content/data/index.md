@@ -36,6 +36,10 @@ sections:
 
         end of page
 
+        {{< include-html  "/field-plot-map/field-plot-map.html" >}}
+
+        new end
+
         </div>
         </div>
  
