@@ -23,5 +23,5 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "`frame-ancestors * https://openforestobservatory.netlify.app`"
+    Content-Security-Policy = "frame-ancestors * https://openforestobservatory.netlify.app"
 #TODO: set this just for the static pages that need to be embedded
