@@ -30,9 +30,11 @@ sections:
 
         <iframe src="{{< static "/field-plot-map/field-plot-map.html" >}}" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:76vh;" class="tester"></iframe>
 
-        <object type="text/html" data="{{< static "/field-plot-map/field-plot-map.html" >}}"></object>
-
         [View fullscreen map](/field-plot-map/field-plot-map.html)
+
+                <object type="text/html" data="{{< static "/field-plot-map/field-plot-map.html" >}}" style="display:block; width:100%; height:76vh;" class="tester"></object>
+
+                end of page
 
         </div>
         </div>
