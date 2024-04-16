@@ -28,9 +28,12 @@ sections:
         <div style="justify-content:center;">
         <div style="width:100%;">
 
-        <iframe src="{{< static "/field-plot-map/field-plot-map.html" >}}" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:76vh;" class="tester"></iframe>
+        <iframe src="{{< static "/field-data-overviews/field-plot-map.html" >}}" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:76vh;" class="tester"></iframe>
 
         [View fullscreen map](/field-plot-map/field-plot-map.html)
+
+        <iframe src="{{< static "/field-data-overviews/field-plot-data-table.html" >}}" frameborder="0" scrolling="yes" seamless="seamless" style="width:100%; height:76vh; display:flex;" class="tester"></iframe>
+
 
         </div>
         </div>
@@ -43,3 +46,5 @@ sections:
 <!-- 
 An alternative to iframe:
 <object type="text/html" data="{{< static "/field-plot-map/field-plot-map.html" >}}" style="display:block; width:100%; height:76vh;" class="tester"></object> -->
+
+<!-- TODO: Make the data table fill the height of the iframe so that we can use the data table's built-in scrolling functionality -->
