@@ -86,7 +86,7 @@ sections:
         
         <div class = "tester">
         
-        # Our projects
+        # OFO resources
 
         </div>
 
@@ -97,10 +97,10 @@ sections:
         <div class="col-sm">
         <div class="text-center">
         <i class="fa-solid fa-map-location fa-3x" style="margin-top: 0.5em;"></i>
-        <h3 style="margin-top: 1em;">Forest map database</h3>
-        <p>The forest map database we are developing will contain individual tree-level maps of over 100 forest stands (~ 25 ha each) across California and the western U.S. and enable individuals worldwide to contribute their own datasets.</p>
+        <h3 style="margin-top: 1em;">Forest map data</h3>
+        <p>We host databases of drone-derived data (web portal in development) and traditional field-based data at the same sites ([web portal prototype](/data-field-ref/)), along with guidelines for others wishing to collect their own data.</p>
 
-        [View the prototype >](/map-database/)
+        [Data >](/data/)
         </div>
         </div>
 
@@ -108,9 +108,9 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-compass-drafting fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest mapping tools</h3>
-        <p>We are building a set of easy-to-use tools to allow users to process their own drone imagery into individual-tree forest maps using current best-practices as defaults.</p>
+        <p>We develop and support easy-to-use tools to allow users to process their own drone imagery into individual-tree forest maps using current best-practices as defaults.</p>
 
-        [Learn more >](/map-database/)
+        [Tools >](/tools/)
 
 
 ---
