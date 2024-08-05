@@ -98,7 +98,7 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-map-location fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest map data</h3>
-        <p>We host databases of drone-derived data (web portal in development) and traditional field-based data at the same sites ([web portal prototype](/data-field-ref/)), along with guidelines for others wishing to collect their own data.</p>
+        <p>We host databases of drone-derived data (web portal in development) and traditional field-based data at the same sites <a href="/data-field-ref/">web portal prototype</a>, along with guidelines for others wishing to collect their own data.</p>
 
         [Data >](/data/)
         </div>
