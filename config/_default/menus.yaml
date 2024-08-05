@@ -6,11 +6,24 @@ main:
   - name: Data
     url: /data
     weight: 10
+    identifier: Data
+  # - name: Drone data
+  #   parent: Data
+  #   url: https://docs.openforestobservatory.org/data/datasets/
+  #   weight: 15
+  # - name: Field data
+  #   parent: Data
+  #   url: /data-field-ref
+  #   weight: 20
+  # - name: Data collection
+  #   parent: Data
+  #   url: /data-collection
+  #   weight: 25
   - name: Tools
     url: /tools
     weight: 20
-  - name: Docs
-    url: "https://docs.openforestobservatory.org"
+  - name: Get Involved
+    url: /get-involved
     weight: 30
   - name: About
     weight: 40

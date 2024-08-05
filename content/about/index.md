@@ -16,7 +16,7 @@ banner:
 
 The Open Forest Observatory is a collaborative effort led by university researchers, with contributions and support from nonprofit groups, government agencies, and individuals.
 
-We welcome new collaborators from all backgrounds! Visit our [community forum](https://github.com/orgs/open-forest-observatory/discussions) or [contact us](#contact) to get involved.
+We welcome new collaborators from all backgrounds! Visit our [community forum](https://github.com/orgs/open-forest-observatory/discussions) or [contact us](#contact-us) to get involved.
 
 <br>
 
@@ -26,7 +26,7 @@ We welcome new collaborators from all backgrounds! Visit our [community forum](h
 
 # Contact us
 
-Visit our [community forum](https://github.com/orgs/open-forest-observatory/discussions) for discussion and help from OFO staff and fellow users.
+Visit our [community forum](https://github.com/orgs/open-forest-observatory/discussions) for discussion and help from OFO staff and fellow users. We prefer to keep discussions public so that others can benefit, but you can also email OFO support directly at openforestobservatory@ucdavis.edu.
 
 <br>
 
@@ -40,33 +40,31 @@ The OFO is funded primarily by the [National Science Foundation](http://www.nsf.
   <div class="row">
     <div class="col-sm">
       
-  [![NSF Logo](NSF_4-Color_bitmap_Logo.png#supporter1)](http://www.nsf.gov)
+[{{< figure src="NSF_4-Color_bitmap_Logo.png" alt="NSF Logo" class="supporter1">}}](http://www.nsf.gov)
     </div>
     <div class="col-sm">
-      
-  [![TNC Logo](the-nature-conservancy-vector-logo.png#supporter1)](https://www.nature.org/en-us/)
+    
+[{{< figure src="the-nature-conservancy-vector-logo.png" alt="TNC Logo" class="supporter1">}}](https://www.nature.org/en-us/)
     </div>
   </div>
 
-<div class="row">
-  <div class="col-sm">
+  <div class="row">
+    <div class="col-sm">
     
-  [![UCD PLS Logo](ucd_plant_sciences_logo.png#supporter2)](https://www.plantsciences.ucdavis.edu/)
-  </div>
-  <div class="col-sm">
+  [{{< figure src="ucd_plant_sciences_logo.png" alt="UCD PLS Logo" class="supporter2">}}](https://www.plantsciences.ucdavis.edu/)
+    </div>
+    <div class="col-sm">
     
-  [![Earth Lab Logo](/19476722.png#supporter2)](https://earthlab.colorado.edu/)
-  </div>
-  <div class="col-sm">
+  [{{< figure src="19476722.png" alt="Earth Lab Logo" class="supporter2">}}](https://earthlab.colorado.edu/)
+    </div>
+    <div class="col-sm">
     
-  [![Bio5 Institute Logo](bio5-logo-small.png#supporter2)](http://www.bio5.org)
+  [{{< figure src="bio5-logo-small.png" alt="Bio5 Institute Logo" class="supporter2">}}](http://www.bio5.org)
+    </div>
   </div>
-</div>
-
-<br>
   <div class="col-sm">
 
-  [![Cyverse Logo](cyverse_cmyk.png#supporter3)](http://www.cyverse.org)
+  [{{< figure src="cyverse_cmyk.png" alt="Cyverse Logo" class="supporter3">}}](http://www.cyverse.org)
   
   </div>
 </div>

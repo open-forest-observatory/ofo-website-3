@@ -16,3 +16,10 @@ banner:
 
 ---
 
+[<i class="fa-regular fa-images"></i> **Drone-based data**](/data-drone/) - We host a database of > 150 (and growing) drone-based forest imagery acquisitions, including raw images and downstream products including orthomosaics, canopy height models, and individual tree detections. A web catalog and API to access these datasets is in development. In the meantime, see our [listing of example datasets](/data-drone/) available for download, and [contact us](/about/#contact-us) if you are looking for something specific.
+
+[<i class="fa-solid fa-tree"></i> **Field reference data**](/data-field-ref/) - We host host a large dataset of > 150 traditional field-based forest inventory plots with individual tree locations mapped. These datasets generally fall within the footprint of an OFO drone-based dataset, enabling calibration and validation of drone-based forest mapping workflows. [Access the catalog.](/data-field-ref/)
+
+[<i class="fa-solid fa-clipboard-list"></i> **Data collection protocols**](/data-protocols/) - Guidance for collecting (and, we hope, contributing!) your own drone-based data and field reference data.
+
+<br>
