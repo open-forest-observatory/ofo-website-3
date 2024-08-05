@@ -67,26 +67,4 @@ After identifying the locations and sizes of individual trees, the next step is 
 
 To translate between raw drone images (which are not geospatial) and the geosptaial mapping products such as the orthomosaic, we have developed the open-source and user-friendly [Multiview Mapping Toolkit](https://github.com/open-forest-observatory/multiview-mapping-toolkit). Using this software, a geospatial map (e.g. of species identities) can be projected onto the raw drone images and used (for example) for training a computer vision algorithm to identify tree species (or detect trees) using the raw drone images. Similarly, if one has tree species identities annotated on the raw drone images (e.g., the result of running computer vision inference on the images), the MVMT can project these annotations onto the geospatial layers (e.g. orthomosaic) for mapping purposes.
 
-## Call for collaborators <a name="collaborators"></a>
-
-We welcome collaborations to develop forest mapping methods and tools. In particular, we are interested incorporating any large (> 0.25 ha) field-based forest inventory plot data for development, testing, and training of our forest mapping workflows. If you are interested in collaborating, [contact us](/#contact).
-
-## Funding and support
-
-<div class="container text-center align-content-middle">
-  <div class="row">
-    <div class="col-sm">
-{{< figure src="cal_fire_logo_small.png" width="120px" >}}
-    </div>
-    <div class="col-sm">
-{{< figure src="cci_logo_small.png" width="200px" >}}
-    </div>
-    <div class="col-sm">
-{{< figure src="NSF_4-Color_bitmap_Logo.png" width="200px" >}}
-    </div>
-    <div class="col-sm">
-{{< figure src="the-nature-conservancy-vector-logo.png" width="200px" >}}
-    </div>
-  </div>
-
-</div>
+<br>
