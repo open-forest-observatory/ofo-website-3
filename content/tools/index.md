@@ -1,6 +1,6 @@
 ---
 title: Drone-based forest mapping tools
-summary: "Developing methods to map forests at the individual tree level using drones, photogrammetry, and computer vision"
+summary: "Tools to map forests at the individual tree level using drones, photogrammetry, and computer vision"
 
 date: 2022-01-01
 show_date: false
@@ -30,41 +30,29 @@ gallery_item:
 
 ---
 
-[<i class="fas fa-circle-exclamation"></i> Call for collaborators](#collaborators)
+Tools and workflows for processing drone imagery to map forests at the individual tree level.
 
-We are developing open-source, automated workflows for producing high-accuracy, spatially extensive (10-300 ha) maps of forest stands at the individual tree level using drone imagery. Potential applications of these maps include planning post-fire reforestation treatments, developing thinning and prescribed fire prescriptions, and inventorying carbon stocks. Our workflow enables mapping of about 50 ha (125 acres) of forest area in less than 2 days of a single technician's time (including collection of drone imagery using a single consumer drone and imagery processing). The workflow has several steps:
+- **[Automate Metashape](https://github.com/open-forest-observatory/automate-metashape)** - Tool for processing drone imagery into orthomosaics, digital surface and terrain models, 3D mesh models, and point clouds in a reproducible, documented way, with default settings that work well for forests. This tool streamlines the use of the commonly used commercial photogrammetry software *Agisoft Metashape*. We are working to develop similar functionality for open-source photogrammetry software.
 
-### 1. Image collection and photogrammetry
+- **[Geograypher](https://github.com/open-forest-observatory/geograypher)** - Toolkit for projecting geospatial data (e.g., tree species labels) onto raw drone images, and vice versa. This tool enables powerful workflows for training and deploying computer vision models for tree species identification and other tasks, taking advantage of the fact that each tree generally appears in numerous drone images from different angles.
 
-We collect many partially overlapping drone photos across the site. This means any given tree appears in many photos, each from a slightly different angle.
+- **[ofo R package](https://github.com/open-forest-observatory/ofo-r) (in development)** - This in-development package provides functions for common drone data operations, in many cases leaning on existing tools while providing forest-specific default settings. Supported tasks include:
+  - Creating canopy height models (CHMs)
+  - Detecting individual trees from CHMs and delineating tree crowns
+  - Evaluating drone-based tree detections by comparing them against field reference data
+  - Compiling metadata and building visualizations of new drone data acquisitions
+  - Accessing datasets from the OFO drone data and field reference data catalogs
 
-{{< figure src="photogrammetry.jpg" caption="Example of an individual tree viewed from multiple angles in separate drone images." >}}
-
-Because each tree is visible from multiple angles, it is possible to use methods related to stereo vision (specifically, *photogrammetry*) to estimate each tree's 3D structure. The photogrammetry algorithm produces a 3D cloud of points that is very similar to lidar data.
-
-{{< figure src="lidar.PNG" caption="Visualization of a 3D point cloud from our Emerald Point site produced via photogrammetry." >}}
-
-The photogrammetry algorithm is also used to produce an orthomosaic, which is a high-resolution aerial image produced by stitching together the numerous drone photos. It resembles NAIP or Google Earth imagery but is generally much higher resolution (~ 3 cm).
-
-Photogrammetric processing requires parameterization for the specific application. We have thoroughly tested parameterizations for individual tree detection in structurally complex conifer forests and published our results, including recommended parameter values, in [<i class="far fa-file-lines"></i> Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13860). We have also built and continue to maintain a [<i class="fab fa-github"></i> software library](https://github.com/open-forest-observatory/automate-metashape) that makes it easy to run multiple photogrammetry workflows with pre-specified parameterizations in a documented, reproducible way.
-
-### 2. Canopy height model (CHM) production
-
-After creation of a point cloud, we process it to compute a digital surface model (DSM). The DSM is a high-resolution (~10-cm) raster indicating the elevation of the vegetation (or ground) surface in each pixel. Then, we subtract elevation values from a high-resolution digital elevation model (DEM). The result is a canopy height model (CHM) indicating the height of the vegetation above the ground in each pixel.
-
-{{< gallery album="photogrammetry" >}}
+- **Geospatial data registration toolkit (in development)** - This set of tools will enable alignment of datasets with minor misalignment due to normal spatial error (e.g., orthomosaics from different dates, or a drone-derived CHM and a third-party DTM).
 
 
-### 3. Tree detection
+### Data processing workflows
 
-Next, using an algorithm such as (a) the variable-window filter implemented in the [ForestTools](https://cran.r-project.org/web/packages/ForestTools/) R package or (b) [DeepForest](https://github.com/weecology/DeepForest) with some post-processing, we detect individual tree tops, and their associated heights, from the canopy height model. The selection and parameterization of the optimal tree detection algorithm is a complex process and can depend on the approach used for drone imagery collection and processing. We have evaluated the interactions between these choices and identified a an accurate tree detection method and parameterization for structurally complex conifer forests. The results are published in [<i class="far fa-file-lines"></i> Methods in Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13860).
+Different OFO tools come in at different points within various drone data processing workflows. We provide step-by-step guides for some common data processing tasks.
 
-### 4. Tree species identification
-
-After identifying the locations and sizes of individual trees, the next step is to identify each tree taxonomically. We are building an AI-based computer vision approach to classify the drone-derived images of each tree into species categories. We take advantage of the fact that each tree appears in dozens to hundreds of individual drone images, often from side angles, allowing us to use the multiple viewing angles to more confidently identify the tree to species. This approach is known as multi-view computer vision.
-
-{{< figure src="multiview-species-id.png" width="500px" title="Workflow for programmatically isolating images of individual detected trees for AI-based species identification. (1) The tree is detected using the CHM, orthomosaic, and/or point cloud. (2) The top and bottom of the tree are projected from 3D space onto the drone photo. (3) The tree top and bottom are used to create a bounding box to crop the single tree from the image. (4) The process is repeated for every drone image in which the focal tree appears. The resulting images are supplied to the computer vision image classification algorithm." >}}
-
-To translate between raw drone images (which are not geospatial) and the geosptaial mapping products such as the orthomosaic, we have developed the open-source and user-friendly [Multiview Mapping Toolkit](https://github.com/open-forest-observatory/multiview-mapping-toolkit). Using this software, a geospatial map (e.g. of species identities) can be projected onto the raw drone images and used (for example) for training a computer vision algorithm to identify tree species (or detect trees) using the raw drone images. Similarly, if one has tree species identities annotated on the raw drone images (e.g., the result of running computer vision inference on the images), the MVMT can project these annotations onto the geospatial layers (e.g. orthomosaic) for mapping purposes.
+- [Image collection](/workflow-data-collection/) - collecting drone data to support forest mapping at the individual-tree scale
+- [Photogrammetry](/workflow-photogrammetry/) - processing drone data into geospatial datasets including orthomosaics, digital surface and terrain models, 3D mesh models, and point clouds
+- [Tree detection & mapping](/workflow-tree-detection/) - detecting and mapping individual trees using photogrammetry products
+- [Taxonomic identification](/workflow-taxonomic-classification/) - taxonomically classifying trees from drone imagery in a geospatial context
 
 <br>

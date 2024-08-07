@@ -20,6 +20,6 @@ banner:
 
 [<i class="fa-solid fa-tree"></i> **Field reference data**](/data-field-ref/) - We host host a large dataset of > 150 traditional field-based forest inventory plots with individual tree locations mapped. These datasets generally fall within the footprint of an OFO drone-based dataset, enabling calibration and validation of drone-based forest mapping workflows. [Access the catalog.](/data-field-ref/)
 
-[<i class="fa-solid fa-clipboard-list"></i> **Data collection protocols**](/data-protocols/) - Guidance for collecting (and, we hope, contributing!) your own drone-based data and field reference data.
+[<i class="fa-solid fa-clipboard-list"></i> **Data collection protocols**](/workflow-data-collection/) - Guidance for collecting (and, we hope, contributing!) your own drone-based data and field reference data.
 
 <br>
