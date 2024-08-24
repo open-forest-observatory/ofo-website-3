@@ -10,7 +10,7 @@ appearance:
   theme_day: tof
   theme_night: tof
   font: focfnt
-  font_size: XL
+  font_size: L
 
 # SEO
 marketing:
