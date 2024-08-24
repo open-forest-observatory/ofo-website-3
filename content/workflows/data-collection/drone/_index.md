@@ -137,6 +137,5 @@ Checklists are important for ensuring that important steps are not overlooked. T
   * Sort out any landscape photos or videos and put them in a folder named {site name}\_landscape. Example: yuba\_landscape. This folder should be in the root drone-imagery folder. This folder will accumulate landscape photos from multiple missions. If there are file name conflicts, it is OK to rename the files (rather than overwriting the existing photos). This applies only to landscape photos. Normal mission photos should never have filename conflicts.  
 * Clear SD cards (after making sure that all photos are transferred to local and cloud storage)  
 * Allow flight controller to sync mission logs to online logging platforms (if applicable)  
-* File post-flight reports with UCOP: [https://ehs.ucop.edu/drones/](https://ehs.ucop.edu/drones/)  
-  * Reference the flight interval times from Maps Made Easy or AirData (or paper flight log)  
+* If required by your institution, file post-flight reports
 * Charge batteries, remote, and tablet (if using) for storage (ideally to 50%, but more is OK)
