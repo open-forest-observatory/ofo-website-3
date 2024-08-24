@@ -63,14 +63,17 @@ sitemap:
 
 cascade:
   - _target:
+      path: "**"
+    book_sidebar: false
+  - _target:
       path: "/workflows/**"
     show_breadcrumb: true
   - _target:
       path: "/data/**"
-    show_breadcrumb: true
+    show_breadcrumb: false
+  - _target:
+      path: "/data/drone"
+    show_breadcrumb: false
   - _target:
       path: "/tools/**"
     show_breadcrumb: true
-  - _target:
-      path: "**"
-    book_sidebar: false
