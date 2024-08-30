@@ -23,6 +23,8 @@ We have had success using the DJI flight planner app on the standard DJI Mavic 3
 
 ## Mission parameters
 
+Best results are likely obtained when performing flights within 3 hours of [solar noon](https://gml.noaa.gov/grad/solcalc/) to minimize shadows. Similarly, in areas above 30 degrees latitude, best results are likely obtained when flying during the 3 months surrounding the summer solstice. While some have raised concerns about collecting imagery within 1 hour of solar noon due to [hotspots](https://link.springer.com/chapter/10.1007/978-3-642-75389-3_5), we (flying at approx. 35-45 degrees latitude during the summer) have not observed any significant issues in processing imagery containing hotspots.
+
 In areas with significant topography, use a "terrain awareness" mode that maintains a consistent altitude above ground level. The flight speed and mission duration can be set to the maximum values that accommodate the other mission parameters and allow for safe operation. Ensure that the selected camera exposure parameters allow for minimal motion blur (the movement the subject across multpile pixels during the time the shutter is open). Additionally, we have found that some drone models' auto exposure modes (particularly with the Mavic 3E/3M) can result in underexposed images, so we recommend inspecting a preliminary set of images and adjusting exposure compensation (EV) as needed. If autofocus does not appear to be focusing properly, it should work to use manual focus set to infinity.
 
 ### High-altitude nadir mission
