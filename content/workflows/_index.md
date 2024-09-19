@@ -18,4 +18,3 @@ These workflows are in active development, with plans for a complete initial set
 - [Accuracy assessment](accuracy-assessment) - Assessing the accuracy of drone-derived forest maps
   via comparison against ground reference data
   
-{{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" >}}
