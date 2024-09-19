@@ -15,4 +15,6 @@ These workflows are in active development, with plans for a complete initial set
 - [Photogrammetry](photogrammetry) - Processing drone data into geospatial datasets including orthomosaics, digital surface and terrain models, 3D mesh models, and point clouds
 - [Tree detection & mapping](tree-detection) - Detecting and mapping individual trees using photogrammetry products
 - [Taxonomic classification](taxonomic-classification) - Taxonomically classifying trees from drone imagery in a geospatial context
-- [Accuracy assessment](accuracy-assessment) - Assessing the accuracy of drone-derived forest maps via comparison against ground reference data
+- [Accuracy assessment](accuracy-assessment) - Assessing the accuracy of drone-derived forest maps
+  via comparison against ground reference data
+  
