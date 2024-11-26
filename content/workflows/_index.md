@@ -9,7 +9,7 @@ profile: false
 
 These workflows demonstrate the use of relevant OFO and third-party tools for drone-based forest mapping, from data collection, to production of forest maps, to accuracy assessment.
 
-These workflows are in active development, with plans for a complete initial set by mid-2025. If you are looking for details that you can't find here, [reach out](/about/#contact-us)!
+These workflows are in active development, with plans for a complete initial set by mid-2026. If you are looking for details that you can't find here, [reach out](/about/#contact-us)!
 
 - [Data collection](data-collection) - Collecting drone data & ground reference data to support forest mapping at the individual tree scale
 - [Photogrammetry](photogrammetry) - Processing drone data into geospatial datasets including orthomosaics, digital surface and terrain models, 3D mesh models, and point clouds
