@@ -2,7 +2,7 @@ This repository contains the source code and media for the OFO website. Building
 
 ## Previewing edits before publishing
 
-There are two ways to preview edits before they become public. The Netlify option does not require any local software or compute, but it requires pushing changes to Github, submitting a pull request, and waiting about a minute for the website to build. The local option does not require pushing changes, builds almost imediately, but requires having hugo installed locally.
+There are two ways to preview edits before they become public. The Netlify option does not require any local software or compute, but it requires pushing changes to Github, submitting a pull request, and waiting about a minute for the website to build. The local option does not require pushing changes, builds almost immediately, but requires having hugo installed locally.
 
 ### Using Netlify's deploy-preview feature
 
