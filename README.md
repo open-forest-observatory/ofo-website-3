@@ -23,6 +23,17 @@ Note: Links in embedded iframes (i.e., leaflet maps and data tables) need to use
 
 ### Locally
 
-You need to install the Hugo command-line tools (on Ubuntu, `sudo apt install hugo`). Then, in a terminal with the root of the website repo as your working directory, run `hugo server`. The website will build in a few seconds, and then the terminal will tell you it is being served at localhost:1313. Go to this URL to see the site.
+To edit the website locally, clone this repo to your machine `git clone https://github.com/open-forest-observatory/ofo-website-3.git'
+
+Install the Hugo command-line tools: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;on Ubuntu, `sudo apt install hugo` 
+
+
+
+on MacOS `brew install hugo`. 
+
+
+Then, in a terminal with the root of the website repo as your working directory, run `hugo server`. The website will build in a few seconds, and then the terminal will tell you it is being served at localhost:1313. Go to this URL to see the site.
 
 Note: Links in embedded iframes (i.e., leaflet maps and data tables) need to use absolute URLs that must be specified in the site source files prior to build. By default, the R scripts that build these resources are set to use `openforestobservatory.org` (not `localhost:1313`) as the domain. This can be changed (via a constant at the top of the relevant scripts) to `localhost:1313` so that these URLs point to the local server's site. You would then have to re-run the R script to re-generate the site source files with this new URL. Just make sure to set it back to `openforestobservatory.org` before pushing your changes (or at least before submitting a PR).
