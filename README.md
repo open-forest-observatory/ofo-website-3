@@ -1,8 +1,16 @@
 This repository contains the source code and media for the OFO website. Building these source files into an actual HTML website relies on [Hugo](https://gohugo.io/), using the [Hugo Blox](https://hugoblox.com/) theme (specifically the [Boostrap version](https://bootstrap.hugoblox.com/)) and is based on the [Research Group](https://github.com/HugoBlox/theme-research-group) starter template. The build is performed at [Netlify](https://www.netlify.com/) upon push or mege to main. Netlify also serves the site. A preview version of the site is also built and served upon submission of a PR.
 
+<br/>
+
+### Editing Tips
+
+Editing the home landing page: `/content/_index.md`
+
+
+
 ## Previewing edits before publishing
 
-There are two ways to preview edits before they become public. The Netlify option does not require any local software or compute, but it requires pushing changes to Github, submitting a pull request, and waiting about a minute for the website to build. The local option does not require pushing changes, builds almost immediately, but requires having hugo installed locally.
+There are two ways to preview edits before they become public. **1.** The Netlify option does not require any local software or compute, but it requires pushing changes to Github, submitting a pull request, and waiting about a minute for the website to build. **2.** The local option does not require pushing changes, builds almost immediately, but requires having hugo installed locally.
 
 ### Using Netlify's deploy-preview feature
 
