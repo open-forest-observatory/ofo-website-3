@@ -23,7 +23,7 @@ Note: Links in embedded iframes (i.e., leaflet maps and data tables) need to use
 
 ### Locally
 
-To edit the website locally, clone this repo to your machine `git clone https://github.com/open-forest-observatory/ofo-website-3.git'
+To edit the website locally, clone this repo to your machine `git clone https://github.com/open-forest-observatory/ofo-website-3.git`
 
 Install the Hugo command-line tools: 
 
