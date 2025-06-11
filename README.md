@@ -4,9 +4,7 @@ This repository contains the source code and media for the OFO website. Building
 
 ### Editing Tips
 
-Edit pages at `/content/'
-
-  Home landing page at `/content/_index.md`
+Edit the home landing page at `/content/_index.md`. All other pages can be edited in folders within `/content/`. e.g., the tools page is at `/content/tools/_index.md`
   
 
 
