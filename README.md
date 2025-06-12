@@ -25,14 +25,7 @@ Note: Links in embedded iframes (i.e., leaflet maps and data tables) need to use
 
 To edit the website locally, clone this repo to your machine `git clone https://github.com/open-forest-observatory/ofo-website-3.git`
 
-Install the Hugo command-line tools: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;on Ubuntu, `sudo apt install hugo` 
-
-
-
-on MacOS `brew install hugo`. 
-
+Install the required `hugo extended` dependencies following the `hugo blox` instructions [here](https://docs.hugoblox.com/getting-started/install-hugo/).
 
 Then, in a terminal with the root of the website repo as your working directory, run `hugo server`. The website will build in a few seconds, and then the terminal will tell you it is being served at localhost:1313. Go to this URL to see the site.
 
