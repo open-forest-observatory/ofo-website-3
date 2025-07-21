@@ -1,3 +1,31 @@
+Clone just the development branch to my local machine
+
+`git clone -b jgillan/website-refresh --single-branch git@github.com:open-forest-observatory/ofo-website-3.git`
+
+`git add .`
+
+`git commit -m 'testing testing'`
+
+`git push -u origin jgillan/website-refresh`
+
+git 
+
+
+`hugo server`
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
 This repository contains the source code and media for the [OFO website](https://openforestobservatory.org). Building these source files into an actual HTML website relies on [Hugo](https://gohugo.io/), using the [Hugo Blox](https://hugoblox.com/) theme (specifically the [Boostrap version](https://bootstrap.hugoblox.com/)) and is based on the [Research Group](https://github.com/HugoBlox/theme-research-group) starter template. The build is performed at [Netlify](https://www.netlify.com/) upon push or mege to main. Netlify also serves the site. A preview version of the site is also built and served upon submission of a PR.
 
 <br/>
