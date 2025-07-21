@@ -28,7 +28,7 @@ sections:
         <div class="col-xl-10">
         <div style="text-align: center; font-size: 225%; line-height: 120%;">
 
-        **Drone-based forest mapping for forest ecology and management**
+        **Drone-based mapping for forest ecology and management**
 
         </div>
         <br>
