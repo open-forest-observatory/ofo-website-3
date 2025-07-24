@@ -1,15 +1,4 @@
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-
 This repository contains the source code and media for the [OFO website](https://openforestobservatory.org). Building these source files into an actual HTML website relies on [Hugo](https://gohugo.io/), using the [Hugo Blox](https://hugoblox.com/) theme (specifically the [Boostrap version](https://bootstrap.hugoblox.com/)) and is based on the [Research Group](https://github.com/HugoBlox/theme-research-group) starter template. The build is performed at [Netlify](https://www.netlify.com/) upon push or mege to main. Netlify also serves the site. A preview version of the site is also built and served upon submission of a PR.
 
 <br/>
@@ -49,14 +38,15 @@ Then, in a terminal with the root of the website repo as your working directory,
 Note: Links in embedded iframes (i.e., leaflet maps and data tables) need to use absolute URLs that must be specified in the site source files prior to build. By default, the R scripts that build these resources are set to use `openforestobservatory.org` (not `localhost:1313`) as the domain. This can be changed (via a constant at the top of the relevant scripts) to `localhost:1313` so that these URLs point to the local server's site. You would then have to re-run the R script to re-generate the site source files with this new URL. Just make sure to set it back to `openforestobservatory.org` before pushing your changes (or at least before submitting a PR).
 
 
-Clone just the development branch to my local machine
+#### Clone just the development branch to local machine
 
 `git clone -b jgillan/website-refresh --single-branch git@github.com:open-forest-observatory/ofo-website-3.git`
 
+#### Push local changes back to github development branch
+
 `git add .`
 
-`git commit -m 'testing testing'`
+`git commit -m 'describe changes here'`
 
 `git push -u origin jgillan/website-refresh`
 
-`hugo server`
