@@ -22,9 +22,9 @@ main:
   - name: Tools
     url: /tools
     weight: 20
-  - name: Workflows
-    url: /workflows
-    weight: 22
+  #- name: Workflows
+  #  url: /workflows
+  #  weight: 22
   - name: Get Involved
     url: /get-involved
     weight: 30

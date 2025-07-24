@@ -13,19 +13,69 @@ banner:
 
 ---
 
-Tools and workflows for processing drone imagery to map forests at the individual tree level. For walkthroughs demonstrating the use of these tools for common forest mapping tasks, see our [<i class="far fa-file-lines"></i> data workflows](../workflows/). Our tools are open-source and developed in the open on [<i class="fab fa-github"></i> GitHub](https://github.com/open-forest-observatory/).
+Tools and workflows for processing and analyzing drone imagery to map forests at the individual tree level. Our tools are open-source and developed in the open on [<i class="fab fa-github"></i> GitHub](https://github.com/open-forest-observatory/).
 
-- **[Automate Metashape](https://github.com/open-forest-observatory/automate-metashape)** - Simple command-line tool for processing drone imagery into orthomosaics, digital surface and terrain models, 3D mesh models, and point clouds in a reproducible, documented way, with default settings that work well for forests. This tool streamlines the use of the commonly used commercial photogrammetry software *Agisoft Metashape*. We are working to develop similar functionality for open-source photogrammetry software.
+<br/>
 
-- **[Geograypher](https://github.com/open-forest-observatory/geograypher)** - Python and command-line toolkit for projecting geospatial data (e.g., tree species labels) onto raw drone images, and vice versa. This tool enables powerful workflows for training and deploying computer vision models for tree species identification and other tasks, taking advantage of the fact that each tree generally appears in numerous drone images from different angles.
+<a style="font-size: 1.3em;">
+  <i class="fa-solid fa-images"></i> <strong>Drone Imagery Processing</strong>
+</a>
 
-- **[ofo R package](https://github.com/open-forest-observatory/ofo-r) (in development)** - This in-development package provides functions for common drone data operations, in many cases leaning on existing tools while providing forest-specific default settings. Supported tasks include:
-  - Creating canopy height models (CHMs)
-  - Detecting individual trees from CHMs and delineating tree crowns
-  - Evaluating drone-based tree detections by comparing them against field reference data
-  - Compiling metadata and building visualizations of new drone data acquisitions
-  - Accessing datasets from the OFO drone data and field reference data catalogs
+<br/>
 
-- **Geospatial data registration toolkit (in development)** - This set of tools will enable alignment of datasets with minor misalignment due to normal spatial error (e.g., orthomosaics from different dates, or a drone-derived CHM and a third-party DTM).
+<a href="https://github.com/open-forest-observatory/automate-metashape" style="font-size: 1.0em;">
+  <strong>Automate Metashape</strong>
+</a>
 
-<br>
+ Simple command-line tool for processing drone imagery into orthomosaics, digital surface and terrain models, 3D mesh models, and point clouds in a reproducible, documented way, with default settings that work well for forests. This tool streamlines the use of the commonly used commercial photogrammetry software *Agisoft Metashape*. We are working to develop similar functionality for open-source photogrammetry software.
+
+
+<a href="https://github.com/open-forest-observatory/geospatial-data-registration-toolkit" style="font-size: 1.0em;">
+  <strong>Geospatial data registration toolkit</strong>
+</a>
+
+This set of tools will enable alignment of datasets with minor misalignment due to normal spatial error (e.g., orthomosaics from different dates, or a drone-derived CHM and a third-party DTM).
+
+
+<br/>
+
+<a style="font-size: 1.3em;">
+  <i class="fa-solid fa-robot"></i> <strong>Machine Learning</strong>
+</a>
+
+<br/>
+
+<a href="https://github.com/open-forest-observatory/geograypher" style="font-size: 1.0em;">
+  <strong>GeogRaypher</strong>
+</a>
+
+Python and command-line toolkit for projecting geospatial data (e.g., tree species labels) onto raw drone images, and vice versa. This tool enables powerful workflows for training and deploying computer vision models for tree species identification and other tasks, taking advantage of the fact that each tree generally appears in numerous drone images from different angles.
+
+
+<a href="https://github.com/open-forest-observatory/tree-detection-framework" style="font-size: 1.0em;">
+  <strong>Tree Detection Framework</strong>
+</a>
+
+A python library that provides a standardized interface for performing training, inference, and evaluation using existing tree detection models and algorithms. The project currently supports the external computer vision models DeepForest, Dectree2, and SAM2, as well as a geometric canopy height model segmentor implemented within TDF. 
+
+
+<a href="https://github.com/open-forest-observatory/tree-species-prediction" style="font-size: 1.0em;">
+  <strong>Tree Species Prediction</strong>
+</a>
+
+A python library for predicting tree species 
+
+<br/>
+
+
+<a style="font-size: 1.3em;">
+  <i class="fa-solid fa-cloud"></i> <strong>Computing Infrastructure</strong>
+</a>
+
+<br/>
+
+<a href="https://github.com/open-forest-observatory/cacao-terraform-ofo" style="font-size: 1.0em;">
+  <strong>Virtual Machine Templates</strong>
+</a>
+
+Need larger computing resources to process and analyze your drone imagery? We have developed an 'infrastructure-as-code' template that launches and provisions virtual machines loaded with aerial imagery processing tools. It is currently configured to work on the [Jetstream2 Cloud Computer](https://jetstream-cloud.org/).

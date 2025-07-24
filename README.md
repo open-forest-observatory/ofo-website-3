@@ -1,19 +1,3 @@
-Clone just the development branch to my local machine
-
-`git clone -b jgillan/website-refresh --single-branch git@github.com:open-forest-observatory/ofo-website-3.git`
-
-`git add .`
-
-`git commit -m 'testing testing'`
-
-`git push -u origin jgillan/website-refresh`
-
-git 
-
-
-`hugo server`
-
-
 
 <br/>
 <br/>
@@ -32,7 +16,12 @@ This repository contains the source code and media for the [OFO website](https:/
 
 ### Editing Tips
 
-Edit the home landing page at `/content/_index.md`. All other pages can be edited in folders within `/content/`. e.g., the tools page is at `/content/tools/_index.md`
+Edit the home landing page at `/content/_index.md`. All other pages can be edited in folders within `/content/`. e.g., the tools page is at `/content/tools/_index.md`.
+
+Edit the drone data pages at `/content/data/drone`
+
+drone leaflet map with all drone imagery locations
+`/static/drone-mission-catalog-map/drone-mission-catalog-map.html`
   
 
 
@@ -58,3 +47,16 @@ Install the required `hugo extended` dependencies following the `hugo blox` inst
 Then, in a terminal with the root of the website repo as your working directory, run `hugo server`. The website will build in a few seconds, and then the terminal will tell you it is being served at localhost:1313. Go to this URL to see the site.
 
 Note: Links in embedded iframes (i.e., leaflet maps and data tables) need to use absolute URLs that must be specified in the site source files prior to build. By default, the R scripts that build these resources are set to use `openforestobservatory.org` (not `localhost:1313`) as the domain. This can be changed (via a constant at the top of the relevant scripts) to `localhost:1313` so that these URLs point to the local server's site. You would then have to re-run the R script to re-generate the site source files with this new URL. Just make sure to set it back to `openforestobservatory.org` before pushing your changes (or at least before submitting a PR).
+
+
+Clone just the development branch to my local machine
+
+`git clone -b jgillan/website-refresh --single-branch git@github.com:open-forest-observatory/ofo-website-3.git`
+
+`git add .`
+
+`git commit -m 'testing testing'`
+
+`git push -u origin jgillan/website-refresh`
+
+`hugo server`

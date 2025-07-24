@@ -28,7 +28,9 @@ sections:
         <div class="col-xl-10">
         <div style="text-align: center; font-size: 225%; line-height: 120%;">
 
-        **Drone-based mapping for forest ecology and management**
+        **Drone-based mapping for**
+        
+        **Forest Ecology and Management**
 
         </div>
         <br>
@@ -98,7 +100,7 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-map-location fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest map data</h3>
-        <p>We host databases of drone-derived data (<a href="/data/drone/curation/">catalog in development</a>) and traditional field-based data at the same sites (<a href="/data-ground-ref/">web portal prototype</a>), along with guidelines for others wishing to collect their own data.</p>
+        <p>We host databases of <a href="/data/drone/">drone-derived data</a> and <a href="/data/ground-ref/">traditional field-based data </a> at the same sites, along with guidelines for others wishing to collect their own data.</p>
 
         [Data >](/data/)
         </div>
