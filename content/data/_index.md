@@ -17,7 +17,7 @@ banner:
 
 
 <a href="drone/" style="font-size: 1.3em;">
-  <i class="fa-regular fa-images"></i> <strong>Drone-based Data</strong>
+  <i class="fa-regular fa-images"></i> <strong>Drone-based data</strong>
 </a>
 
 
@@ -32,7 +32,7 @@ The data can also be accessed programmatically with python. Learn how [here](htt
 <br>
 
 <a href="ground-ref/" style="font-size: 1.3em;">
-  <i class="fa-solid fa-tree"></i> <strong>Ground Reference Data</strong>
+  <i class="fa-solid fa-tree"></i> <strong>Ground reference data</strong>
 </a>
 
 We host a large dataset of > 150 traditional ground-based forest inventory plots with individual tree locations mapped. These datasets generally fall within the footprint of an OFO drone-based dataset, enabling calibration and validation of drone-based forest mapping workflows. [Access the catalog.](ground-ref/)
@@ -44,7 +44,7 @@ We host a large dataset of > 150 traditional ground-based forest inventory plots
 <br>
 
 <a href="/workflows/data-collection" style="font-size: 1.3em;">
-  <i class="fa-solid fa-clipboard-list"></i> <strong>Data Collection Protocols</strong>
+  <i class="fa-solid fa-clipboard-list"></i> <strong>Data collection protocols</strong>
 </a>
 
  We have detailed protocols for collecting the drone and field data. Check out our methods and get guidance for collecting (and, we hope, contributing!) your own drone and field-based forest data.  

@@ -30,7 +30,7 @@ sections:
 
         **Drone-based mapping for**
         
-        **Forest Ecology and Management**
+        **forest ecology and management**
 
         </div>
         <br>
@@ -41,7 +41,9 @@ sections:
         <br>
 
         <div style="text-align: center; font-size: 275%; line-height: 120%;">
-        <i class="fas fa-circle-down"></i>
+          <a href="#Us" style="color: inherit; text-decoration: none;">
+            <i class="fas fa-circle-down"></i>
+          </a>
         </div>
 
         </div>
@@ -58,7 +60,7 @@ sections:
     content:
       text: |
 
-        <div class="container">
+        <div id="Us" class="container"> 
         <div class="row justify-content-center">
         <div class="col-xl-10">
 
