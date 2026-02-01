@@ -13,4 +13,24 @@
     height:125px;
     width:200px;
  }
- 
+
+/* Wide layout for curation pages */
+.wide-page-content {
+  /* Override the parent container's max-width when inside wide-page-content */
+}
+
+.wide-page-content ~ .universal-wrapper,
+.wide-page-content + .universal-wrapper,
+.article-container:has(.wide-page-content),
+body:has(.wide-page-content) .universal-wrapper {
+  max-width: 95%;
+}
+
+/* Also widen any Bootstrap containers within the wide content */
+.wide-page-content .container,
+.wide-page-content .container-sm,
+.wide-page-content .container-md,
+.wide-page-content .container-lg,
+.wide-page-content .container-xl {
+  max-width: 100%;
+}
