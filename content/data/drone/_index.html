@@ -30,7 +30,17 @@ sections:
   
           The OFO collections thus far are focused on western U.S. conifer forests but also include a
           number of broadleaf-dominated stands. The catalog is available for hosting forest imagery datasets
-          globally, and we happily accept new contributions. We are eager to expand to new regions and forest types.
+          globally, and we happily accept new contributions. We are eager to expand to new regions
+          and forest types.
+          
+          **Important data use restriction:** The OFO has designated a stratified subset of
+          approximately 20% of drone missions to be excluded from training ML models that are
+          intended for use by the broader forest mapping/ML community. For such applications, these
+          missions are reserved for use as test data for model evaluation and intercomparison. The
+          missions to be excluded from training are indicated by the value true in the metadata
+          column withheld_from_training. See our
+          [documentation](/data/withholding-stratification-procedure.md) of the data withholding
+          stratification procedure.
 
           </div>
           </div>
