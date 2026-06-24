@@ -26,6 +26,15 @@ sections:
 
           The ground reference data catalog consists of large forest inventory plots in which individual trees have been mapped and measured using traditional ground-based mapping methods. They generally consist of point files (.gpkg) for use in GIS. The datasets hosted here are generously shared by contributors under open licensing terms.
 
+          **Important data use restriction:** The OFO has designated a stratified subset of
+          approximately 20% of ground reference plots to be excluded from training ML models that are
+          intended for use by the broader forest mapping/ML community. For such applications, these
+          plots are reserved for use as test data for model evaluation and intercomparison. The
+          plots to be excluded from training are indicated by the value 'true' in the metadata
+          column 'withheld_from_training'. See our
+          [documentation](/data/withholding-stratification-procedure) of the data withholding
+          stratification procedure.
+
           </div>
           </div>
           </div>
