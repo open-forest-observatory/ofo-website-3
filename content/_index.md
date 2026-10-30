@@ -64,7 +64,7 @@ sections:
         <div class="row justify-content-center">
         <div class="col-xl-10">
 
-        The Open Forest Observatory, a collaboration across universities and other partners, is working to automate forest mapping using drone- and ground-based imagery collected using low-cost platforms. We aim to make rapid forest mapping accessible to ecologists, land managers, and the general public regardless of budget and technical background.
+        The Open Forest Observatory, a collaboration across universities and other partners, is working to automate forest mapping using drone- and ground-based imagery collected using low-cost platforms. We aim to make rapid forest mapping accessible to ecologists, land managers, and the general public regardless of budget or technical background.
 
         All of our work is open-source (see our work on [GitHub](https://github.com/open-forest-observatory)). We are keen to collaborate with anyone interested in using and/or contributing to our tools. Learn how to [contact us](/about/#contact).
 
@@ -90,7 +90,7 @@ sections:
         
         <div class = "tester">
         
-        # OFO resources
+        # OFO Resources
 
         </div>
 
@@ -102,9 +102,9 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-map-location fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest map data</h3>
-        <p>We host databases of imagery-derived forest data and traditional ground-based forest inventory data, often at the same sites, along data collection guidelines.</p>
+        <p>We host databases of imagery-derived forest data and traditional ground-based forest inventory data, often at the same sites, along with data collection guidelines.</p>
 
-        <a class="btn btn-primary btn-lg" style="font-size: 1.4em; padding: 0.5em 1.4em;" href="/data/">Data &rsaquo;</a>
+        <a class="btn btn-primary btn-lg" style="font-size: 1.2em; padding: 0.5em 1.4em;" href="/data/">Data &rsaquo;</a>
         </div>
         </div>
 
@@ -112,9 +112,9 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-compass-drafting fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest mapping tools</h3>
-        <p>We develop and support easy-to-use software tools to allow users to process their own drone and ground imagery into individual-tree forest maps.</p>
+        <p>We develop and support easy-to-use software tools to allow users to process their own drone and/or ground imagery into individual-tree forest maps.</p>
 
-        <a class="btn btn-primary btn-lg" style="font-size: 1.4em; padding: 0.5em 1.4em;" href="/tools/">Tools &rsaquo;</a>
+        <a class="btn btn-primary btn-lg" style="font-size: 1.2em; padding: 0.5em 1.4em;" href="/tools/">Tools &rsaquo;</a>
 
 
 ---
