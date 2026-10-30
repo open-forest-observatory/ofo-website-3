@@ -5,6 +5,10 @@ subtitle: ""
 
 profile: false
 
+banner:
+  caption:
+  image: "crew-drone-banner-2.JPG"
+
 ---
 
 Come work with us! We expect to announce several positions in late November 2026. The positions would sit in the [Forest Change Analysis Lab](https://focal-lab.org) (FOCAL) at UC Davis, led by Dr. Derek Young. To stay informed, join our [mailing list](/about/#mailing-list), or simply [contact us](/about/#contact-us) to express interest.
