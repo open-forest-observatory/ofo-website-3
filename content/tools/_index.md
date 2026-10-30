@@ -1,5 +1,5 @@
 ---
-title: Drone-based forest mapping tools
+title: Automated Forest Mapping tools
 summary: "Tools to map forests at the individual tree level using drones, photogrammetry, and computer vision"
 
 image:
@@ -13,14 +13,14 @@ banner:
 
 ---
 
-Tools for processing and analyzing drone imagery to map forests at the individual tree level. Our tools are open-source and developed in the open on [<i class="fab fa-github"></i> GitHub](https://github.com/open-forest-observatory/).
+Tools for processing drone and ground imagery to map forests at the individual tree level. Our tools are open-source and developed in the open on [<i class="fab fa-github"></i> GitHub](https://github.com/open-forest-observatory/).
 
 {{% callout note %}}
-Check out our [tutorials](https://docs.openforestobservatory.org/tutorials/) to learn how to use these tools in real data processing workflows!
+Check out our [tutorials](https://docs.openforestobservatory.org/tutorials/) to learn how to use these tools in real data processing workflows.
 {{% /callout %}}
 
 
-## <i class="fa-solid fa-robot"></i> **Tree detection and classification**
+## <i class="fa-solid fa-tree"></i> **Tree detection and classification**
 
 [**Tree Detection Framework**](https://github.com/open-forest-observatory/tree-detection-framework)\
 A Python library for detecting and delineating individual trees from drone-derived data products. It provides a geometric algorithm that finds treetops in a canopy height model and a common interface to several existing computer vision models that detect trees in an orthomosaic. It eliminates the need for common 'boilerplate' pre- and post-processing code, including dividing large geospatial rasters into the smaller tiles expected by computer vision models and reassbmeling the results. It facilitates comparing among different computer vision models, using consistent inputs and outputs.
