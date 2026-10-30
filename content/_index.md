@@ -102,9 +102,9 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-map-location fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest map data</h3>
-        <p>We host databases of imagery-derived forest data and traditional ground-based forest inventory data, often at the same sites, along with guidelines for others wishing to collect their own data.</p>
+        <p>We host databases of imagery-derived forest data and traditional ground-based forest inventory data, often at the same sites, along data collection guidelines.</p>
 
-        <a class="btn btn-primary" href="/data/">Data &rsaquo;</a>
+        <a class="btn btn-primary btn-lg" href="/data/">Data &rsaquo;</a>
         </div>
         </div>
 
@@ -114,7 +114,7 @@ sections:
         <h3 style="margin-top: 1em;">Forest mapping tools</h3>
         <p>We develop and support easy-to-use software tools to allow users to process their own drone and ground imagery into individual-tree forest maps.</p>
 
-        <a class="btn btn-primary" href="/tools/">Tools &rsaquo;</a>
+        <a class="btn btn-primary btn-lg" href="/tools/">Tools &rsaquo;</a>
 
 
 ---
