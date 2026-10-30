@@ -64,7 +64,7 @@ sections:
         <div class="row justify-content-center">
         <div class="col-xl-10">
 
-        The Open Forest Observatory, a collaboration across universities and other partners, is working to automate forest mapping using drone- and ground-based imagery collected using low-cost platforms. We aim to make rapid forest mapping accessible to ecologists, land managers, and the general public regardless of technical background.
+        The Open Forest Observatory, a collaboration across universities and other partners, is working to automate forest mapping using drone- and ground-based imagery collected using low-cost platforms. We aim to make rapid forest mapping accessible to ecologists, land managers, and the general public regardless of budget and technical background.
 
         All of our work is open-source (see our work on [GitHub](https://github.com/open-forest-observatory)). We are keen to collaborate with anyone interested in using and/or contributing to our tools. Learn how to [contact us](/about/#contact).
 
