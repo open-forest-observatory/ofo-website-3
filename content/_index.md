@@ -64,9 +64,9 @@ sections:
         <div class="row justify-content-center">
         <div class="col-xl-10">
 
-        The Open Forest Observatory, a collaboration across universities and other partners, is working to make low-cost, AI-enabled drone-based forest mapping accessible to ecologists, land managers, and the general public.
+        The Open Forest Observatory, a collaboration across universities and other partners, is working to automate forest mapping using drone- and ground-based imagery collected using low-cost platforms. We aim to make rapid forest mapping accessible to ecologists, land managers, and the general public regardless of technical background.
 
-        The OFO tools in development will be usable by groups and individuals with limited background in drones and remote sensing. All of our work is open-source (see our work on [GitHub](https://github.com/open-forest-observatory)). We are keen to collaborate with anyone interested in using and/or contributing to our tools. Learn how to [contact us](/about/#contact).
+        All of our work is open-source (see our work on [GitHub](https://github.com/open-forest-observatory)). We are keen to collaborate with anyone interested in using and/or contributing to our tools. Learn how to [contact us](/about/#contact).
 
         </div>
         </div>
@@ -102,9 +102,9 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-map-location fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest map data</h3>
-        <p>We host databases of <a href="/data/drone/">drone-derived data</a> and <a href="/data/ground-ref/">traditional field-based data </a> at the same sites, along with guidelines for others wishing to collect their own data.</p>
+        <p>We host databases of imagery-derived forest data and traditional ground-based forest inventory data, often at the same sites, along with guidelines for others wishing to collect their own data.</p>
 
-        [Data >](/data/)
+        <a class="btn btn-primary" href="/data/">Data &rsaquo;</a>
         </div>
         </div>
 
@@ -112,9 +112,9 @@ sections:
         <div class="text-center">
         <i class="fa-solid fa-compass-drafting fa-3x" style="margin-top: 0.5em;"></i>
         <h3 style="margin-top: 1em;">Forest mapping tools</h3>
-        <p>We develop and support easy-to-use tools to allow users to process their own drone imagery into individual-tree forest maps using current best-practices as defaults.</p>
+        <p>We develop and support easy-to-use software tools to allow users to process their own drone and ground imagery into individual-tree forest maps.</p>
 
-        [Tools >](/tools/)
+        <a class="btn btn-primary" href="/tools/">Tools &rsaquo;</a>
 
 
 ---
