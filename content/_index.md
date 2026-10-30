@@ -28,9 +28,9 @@ sections:
         <div class="col-xl-10">
         <div style="text-align: center; font-size: 225%; line-height: 120%;">
 
-        **Drone-based mapping for**
+        **Rapid forest mapping**
         
-        **forest ecology and management**
+        **deployable by anyone**
 
         </div>
         <br>
@@ -104,7 +104,7 @@ sections:
         <h3 style="margin-top: 1em;">Forest map data</h3>
         <p>We host databases of imagery-derived forest data and traditional ground-based forest inventory data, often at the same sites, along data collection guidelines.</p>
 
-        <a class="btn btn-primary btn-lg" href="/data/">Data &rsaquo;</a>
+        <a class="btn btn-primary btn-lg" style="font-size: 1.4em; padding: 0.5em 1.4em;" href="/data/">Data &rsaquo;</a>
         </div>
         </div>
 
@@ -114,7 +114,7 @@ sections:
         <h3 style="margin-top: 1em;">Forest mapping tools</h3>
         <p>We develop and support easy-to-use software tools to allow users to process their own drone and ground imagery into individual-tree forest maps.</p>
 
-        <a class="btn btn-primary btn-lg" href="/tools/">Tools &rsaquo;</a>
+        <a class="btn btn-primary btn-lg" style="font-size: 1.4em; padding: 0.5em 1.4em;" href="/tools/">Tools &rsaquo;</a>
 
 
 ---
