@@ -13,13 +13,12 @@ banner:
 
 ---
 
-Tools and workflows for processing and analyzing drone imagery to map forests at the individual tree level. Our tools are open-source and developed in the open on [<i class="fab fa-github"></i> GitHub](https://github.com/open-forest-observatory/).
+Tools for processing and analyzing drone imagery to map forests at the individual tree level. Our tools are open-source and developed in the open on [<i class="fab fa-github"></i> GitHub](https://github.com/open-forest-observatory/).
 
 {{% callout note %}}
 Check out our [tutorials](https://docs.openforestobservatory.org/tutorials/) to learn how to use these tools in real data processing workflows!
 {{% /callout %}}
 
-<br/>
 
 ## <i class="fa-solid fa-robot"></i> **Tree detection and classification**
 
