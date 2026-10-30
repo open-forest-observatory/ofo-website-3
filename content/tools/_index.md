@@ -1,5 +1,5 @@
 ---
-title: Automated Forest Mapping tools
+title: Automated Forest Mapping Tools
 summary: "Tools to map forests at the individual tree level using drones, photogrammetry, and computer vision"
 
 image:
