@@ -1,5 +1,5 @@
 ---
-title: Get involved
+title: Get Involved
 summary: "Connect with and participate in the OFO"
 
 show_date: false

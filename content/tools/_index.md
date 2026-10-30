@@ -59,19 +59,3 @@ Python and command-line toolkit for projecting geospatial data (e.g., tree speci
 A python library that provides a standardized interface for performing training, inference, and evaluation using existing tree detection models and algorithms. The project currently supports the external computer vision models DeepForest, Dectree2, and SAM2, as well as a geometric canopy height model segmentor implemented within TDF. 
 
 
-
-
-<br/>
-
-
-<a style="font-size: 1.3em;">
-  <i class="fa-solid fa-cloud"></i> <strong>Computing Infrastructure</strong>
-</a>
-
-<br/>
-
-<a href="https://github.com/open-forest-observatory/cacao-terraform-ofo" style="font-size: 1.0em;">
-  <strong>Virtual machine templates</strong>
-</a>
-
-Need larger computing resources to process and analyze your drone imagery? We have developed an 'infrastructure-as-code' template that launches and provisions virtual machines loaded with aerial imagery processing tools. It is currently configured to work on the [Jetstream2 Cloud Computer](https://jetstream-cloud.org/).
